@@ -13,7 +13,7 @@ const siteConfig = {
   title: 'Creamie',
   tagline: 'A Front-end framework',
   url: 'https://creamie.now.sh',
-  baseUrl: '/creamie-documentation/',
+  baseUrl: '/',
 
   // Used for publishing and more
   projectName: 'creamie-documentation',
