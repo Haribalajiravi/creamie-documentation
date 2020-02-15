@@ -1,3 +1,5 @@
+const path = require('path');
+
 const users = [
   {
     caption: 'User1',
@@ -10,6 +12,7 @@ const users = [
 ];
 
 const siteConfig = {
+  customDocsPath: path.basename(__dirname) + '/docs',
   title: 'Creamie',
   tagline: 'A Front-end framework',
   url: 'https://creamie.now.sh',
