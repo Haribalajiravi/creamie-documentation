@@ -13,11 +13,11 @@ const siteConfig = {
   title: 'Creamie',
   tagline: 'A Front-end framework',
   url: 'https://creamie.now.sh',
-  baseUrl: '/',
+  baseUrl: '/creamie-documentation/',
 
   // Used for publishing and more
-  projectName: 'creamie-cli',
-  organizationName: 'creamie',
+  projectName: 'creamie-documentation',
+  organizationName: 'haribalajiravi',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
