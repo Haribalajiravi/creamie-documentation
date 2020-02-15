@@ -1,0 +1,74 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.copyright-owner {
+    opacity: 0.4;
+    transition: opacity 0.15s ease-in-out;
+    padding: 5px;
+}
+
+.copyright-owner:hover {
+    opacity: 1;
+}
+
+.home-splash-bg {
+    background-color: #fff1de;
+}
+
+.main-container {
+    background: #fff1de;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+.noto-sans {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.overpass {
+    font-family: 'Overpass', sans-serif;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive, sans-serif;
+}
+
+.headerTitleWithLogo {
+    font-family: 'Lobster', cursive, sans-serif !important;
+    font-weight: 100;
+    font-size: 1.5em !important;
+}
+
+.projectTitle > small {
+    margin: 0 !important;
+}
+
+@media only screen and (min-width: 1200px) {
+    .homeContainer .homeWrapper .projectLogo {
+        padding: 0 !important;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+.container .wrapper .imageAlignSide p {
+    text-align: justify;
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
