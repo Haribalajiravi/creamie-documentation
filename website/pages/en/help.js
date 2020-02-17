@@ -18,17 +18,18 @@ function Help(props) {
   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
   const langPart = `${language ? `${language}/` : ''}`;
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+  const gitterLink = `https://gitter.im/creamie-cli/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link`;
 
   const supportLinks = [
     {
       content: `Learn more using the [documentation on this site.](${docUrl(
-        'gettingStarted.html',
+        'installation.html',
       )})`,
       title: 'Browse Docs',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      content: `Post you queries [here](${gitterLink})`,
+      title: 'Join our community',
     },
     {
       content: "Find out what's new with this project",

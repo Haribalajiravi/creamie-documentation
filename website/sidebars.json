@@ -1,10 +1,6 @@
 {
   "docs": {
-    "Getting started": ["installation"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Getting started": ["installation", "projectgeneration", "component"],
+    "Current features": ["webcomponents", "binder", "router", "events"]
   }
 }

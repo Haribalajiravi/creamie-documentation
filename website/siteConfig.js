@@ -27,10 +27,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'installation', label: 'Docs'},
-    {page: 'help', label: 'Help'},
-    {href: 'https://gitter.im/creamie-cli/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link', label: 'Github'},
-    {blog: true, label: 'Blog'}
+    { doc: 'installation', label: 'Docs' },
+    { page: 'help', label: 'Help' },
+    { href: 'https://github.com/haribalajiravi/creamie', label: 'Github'},
+    { href: 'https://gitter.im/creamie-cli/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link', label: 'Community' },
+    { blog: true, label: 'Blog' }
   ],
 
   // If you have users set above, you add it here:
@@ -64,7 +65,7 @@ const siteConfig = {
       "sans-serif"
     ]
   },
-  
+
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()}`,
@@ -73,7 +74,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
