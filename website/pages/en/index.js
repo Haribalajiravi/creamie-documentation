@@ -122,7 +122,7 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Web components will saves your time writing duplicate codes and enhance your application.',
+            content: 'Web components will save your time writing duplicate codes and enhance your application.',
             image: `${baseUrl}img/webcomponents.svg`,
             imageAlign: 'top',
             title: 'Web Components',
