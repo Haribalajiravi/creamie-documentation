@@ -4,21 +4,25 @@ title: Installation guide
 sidebar_label: Installation
 ---
 
-> Note: Check the [documentation](https://github.com/haribalajiravi/creamie-cli) for now. Documentation is on progress.
+## Prerequisite
+- [Node.js](https://nodejs.org/en/)
 
-## Start installing NodeJs 
+## Install Creamie's Command Line Interface (CLI)
 
-Install [nodejs](https://nodejs.org/en/). If you are not yet installed, please install it right away. This framework and tools are working based on nodejs console.
+> Install the CLI globally to use it through the terminal.
 
-## Now install creamie-cli
+If you're on Windows:
 
 ```sh
 npm install -g creamie-cli
 ```
+If you're on Linux or MacOS:
 
-> Install globally, so that you can use creamie anywhere on the terminal.
+```sh
+sudo npm install -g creamie-cli
+```
 
-If you are facing below error. You are probably using linux or mac OS.
+If you use the command without `sudo` in Linux or MacOS, you might face these errors:
 
 ```sh
 npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules
@@ -34,10 +38,4 @@ npm ERR!   code: 'EACCES',
 npm ERR!   syscall: 'access',
 npm ERR!   path: '/usr/local/lib/node_modules'
 npm ERR! }
-```
-
-> Use 'sudo' keyword to grant permission to install globally.
-
-```sh
-sudo npm install -g creamie-cli
 ```
