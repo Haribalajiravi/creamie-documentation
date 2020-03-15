@@ -1,3 +1,9 @@
+---
+id: projectdeployment
+title: Deploy the project
+sidebar_label: Deploy Project
+---
+
 Ensure you've run the following commands before deploying the project.
 
 ## Rebuild `project.json`
