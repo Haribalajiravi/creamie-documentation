@@ -6,7 +6,7 @@ sidebar_label: Deploy Project
 
 Ensure you've run the following commands before deploying the project.
 
-## Rebuild `project.json`
+## Rebuild `package.json`
 
 ```sh
 cd <PROJECT_NAME>
