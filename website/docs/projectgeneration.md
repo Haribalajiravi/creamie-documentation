@@ -35,32 +35,3 @@ The auto-generated project's folder structure will resemble this:
 │       └── main.css
 └── webpack.config.js
 ```
-
-## Serving application
-
-Before serving the application do the following steps
-
-```sh
-cd MyTestApp
-npm init
-```
-
-You can see that `package.json` is already there in application folder structure.
-
-If you need to change content on that use the above specified command to re-built it.
-
-```sh
-npm install
-```
-
-This command is very important that it will install all you dependency packages to your application.
-
-Now, you can use the below command to serve the application
-
-```sh
-npm run development
-```
-
-You can watch your application running on [http://localhost:8080](http://localhost:8080)
-
-Happy Coding!
