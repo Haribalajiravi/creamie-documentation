@@ -1,27 +1,21 @@
 ---
 id: projectgeneration
-title: Creamie application generation 
-sidebar_label: Project creation
+title: Create a Creamie project
+sidebar_label: Create Project
 ---
 
-## Creamie CLI
-
-Creamie CLI will create a new project and snippets for you. You don't need to create manually. We recommend to use this tool to avoid typographical errors. Best to follow the commands!
-
-## Project Generator
+[Install the Creamie CLI](https://creamie.now.sh/docs/installation) and use the following command to automatically create all the folders and files required for your project.
 
 ```sh
 creamie create <PROJECT_NAME>
 ```
 
-Above command will create a ready made sample project for you. Using that you can start developing your own code.
-
 ## Folder Structure
 
-Your application folder structure will looks like this
+The auto-generated project's folder structure will resemble this:
 
 ```sh
-MyTestApp
+<PROJECT_NAME>
 ├── ecosystem.config.js
 ├── package.json
 ├── package-lock.json
