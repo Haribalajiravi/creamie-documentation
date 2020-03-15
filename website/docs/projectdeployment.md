@@ -1,7 +1,7 @@
 ---
 id: projectdeployment
 title: Deploy the project
-sidebar_label: Deploy Project
+sidebar_label: Deploy project
 ---
 
 Ensure you've run the following commands before deploying the project.
