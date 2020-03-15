@@ -1,7 +1,7 @@
 ---
 id: installation
-title: Installation guide
-sidebar_label: Installation
+title: Install CLI
+sidebar_label: Install CLI
 ---
 
 ## Prerequisite
@@ -9,7 +9,7 @@ sidebar_label: Installation
 
 ## Install Creamie's Command Line Interface (CLI)
 
-> Install the CLI globally to use it through the terminal.
+Run the following command to install the CLI globally. If it isn't installed globally, you might not be able to use it through the terminal.
 
 If you're on Windows:
 
