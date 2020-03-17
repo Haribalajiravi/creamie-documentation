@@ -4,13 +4,11 @@ title: Binder
 sidebar_label: Binder
 ---
 
-## Binder
-
-Binder will make the data sync between a HTMLElement and Object.
+Binder syncs the data between a HTMLElement and an Object.
 
 Example:
 
-In your component html try will below code:
+Enter the followng code in `app-component.html`:
 
 ```html
     <input type="text" data="name" placeholder="Type anything">
@@ -18,7 +16,7 @@ In your component html try will below code:
     <button id="change">Change</button>
 ```
 
-app-component.js:
+Now enter this in `app-component.js`:
 
 ```javascript
 import Creamie from 'creamie';
@@ -42,3 +40,4 @@ class App extends Creamie {
 window.customElements.define(AppConfig.tag, App);
 ```
 
+//What happens now??
