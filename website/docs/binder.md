@@ -8,7 +8,7 @@ Binder syncs the data between a HTMLElement and an Object.
 
 Example:
 
-Enter the followng code in `app-component.html`:
+Enter the following code in `app-component.html`:
 
 ```html
     <input type="text" data="name" placeholder="Type anything">
