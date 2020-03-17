@@ -4,7 +4,9 @@ title: Events
 sidebar_label: Events
 ---
 
-## Events
+Events are custom functions that can be called whenever the user performs an action. Consider the following example. The event `e` is configured to send an alert saying "Execute method fired!"
+
+And in the HTML, the event is associated with the `click` function of the button. So whenever the button is clicked, an alert "Execute method fired!" will be sent.
 
 Example:
 

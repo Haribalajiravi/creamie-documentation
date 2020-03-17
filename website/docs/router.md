@@ -4,9 +4,7 @@ title: Router
 sidebar_label: Router
 ---
 
-## Router
-
-Router will replace the particular component on a route placeholder without refreshing the page.
+Routers are used to replace a component on a route placeholder, without refreshing the page.
 
 Example:
 
@@ -61,3 +59,5 @@ index.html:
 </body>
 </html>
 ```
+
+When this example is implemented, the web page would have two hyperlinks—Home and Tab. Clicking on those would not reirect the user to a new URL, but load that URL in the existing page—thereby increasing your web app's speed and efficiency.
