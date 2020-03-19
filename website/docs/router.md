@@ -30,6 +30,7 @@ class App extends Creamie {
         router.init();
         // To route in js
         // router.navigateTo('/tab');
+        // we can acces tabId param like below
         // console.log(router.params.tabId);
     }
 

@@ -30,3 +30,14 @@ npm run development
 ```
 
 Run this command to deploy your project. You can watch your project in action at [http://localhost:8080](http://localhost:8080)
+
+```sh
+npm run build
+```
+Below command will generate production files in `dist/` folder. Followed by that hit below command.
+
+```sh
+npm start
+```
+
+Above command will run your project like prodution.

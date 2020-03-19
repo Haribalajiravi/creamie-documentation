@@ -20,15 +20,13 @@ This is how simple your final `index.html` might look like:
 	<head>
     	<meta charset='utf-8'>
     	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    	<title>Cream App</title>
+    	<title>Creamie App</title>
     	<meta name='viewport' content='width=device-width, initial-scale=1'>
     	<link href="https://fonts.googleapis.com/css?family=Lobster|Overpass&display=swap" rel="stylesheet">
 	</head>
 	
 	<body>
-		//Your page's HTML code
-		//
-		//
+		<!-- Your page's HTML code -->
     	<next-component></next-component>
 	</body>	
 </html>
