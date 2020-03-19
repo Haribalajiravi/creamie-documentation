@@ -61,4 +61,4 @@ index.html:
 </html>
 ```
 
-When this example is implemented, the web page would have two hyperlinks—Home and Tab. Clicking on those would not reirect the user to a new URL, but load that URL in the existing page—thereby increasing your web app's speed and efficiency.
+When this example is implemented, the web page would have two hyperlinks—Home and Tab. Clicking on those would not redirect the user to a new paage, but load that component in the existing page—thereby increasing your web app's speed and efficiency.
