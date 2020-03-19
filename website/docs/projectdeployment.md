@@ -29,15 +29,16 @@ Run this command to install your project's dependant packages.
 npm run development
 ```
 
-Run this command to deploy your project. You can watch your project in action at [http://localhost:8080](http://localhost:8080)
+Run this command to deploy your project in a development environment. You can watch your project in action at [http://localhost:8080](http://localhost:8080)
 
 ```sh
 npm run build
 ```
-Below command will generate production files in `dist/` folder. Followed by that hit below command.
+
+Run this command to generate production files in `dist/` folder. This step is essential before the project can be deployed in production.
 
 ```sh
 npm start
 ```
 
-Above command will run your project like prodution.
+Run this command to deploy your project in a production environment and open it up to users.
