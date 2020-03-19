@@ -40,4 +40,4 @@ class App extends Creamie {
 window.customElements.define(AppConfig.tag, App);
 ```
 
-//What happens now??
+As the `<input>` and `div` have the same `data` attribute, they are synced. Any changes made in the input field will be reflected in the div section. Furthermore, the content of the `<div>` section can be retrieved and used anywhere by using `this.data.name` in the component's JS file.
