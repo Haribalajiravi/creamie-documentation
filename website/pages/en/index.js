@@ -95,7 +95,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              `You don't need to rush out. Production run is already configured. 'ecosystem.config.js' have all the configurations. Q: Can we configure according to our need? : A: Yes, you can.`,
+              `Production run is auto-configured in 'ecosystem.config.js'. If you want, you can also manually configure it according to your specific need.`,
             image: `${baseUrl}img/production.gif`,
             imageAlign: 'right',
             title: 'Production',
@@ -109,7 +109,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              `Changes while development will auto update in browser. Dev configuration are based on webpack. Application's performance is based on webpack configuration. So, if you're good at webpack performance is a piece of cake.`,
+              `Changes in development will be auto-updated in your browser. Development configuration and application performance are based on webpack configuration, so performance will be very optimal once your webpack is optimized.`,
             image: `${baseUrl}img/development.gif`,
             imageAlign: 'left',
             title: 'Development',
@@ -122,13 +122,13 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Web components will save your time writing duplicate codes and enhance your application.',
+            content: 'Save time and enhance your application by preventing code duplication.',
             image: `${baseUrl}img/webcomponents.svg`,
             imageAlign: 'top',
             title: 'Web Components',
           },
           {
-            content: 'Forget about accessing DOM and write code hassle free.',
+            content: 'Code without stressing about accessing DOM.',
             image: `${baseUrl}img/binder.svg`,
             imageAlign: 'top',
             title: 'Binder',
@@ -140,7 +140,7 @@ class Index extends React.Component {
             title: 'Router',
           },
           {
-            content: 'Initializing events on components will make ease on your development and debugging.',
+            content: 'Simplify development and debugging by initializing events.',
             image: `${baseUrl}img/events.svg`,
             imageAlign: 'top',
             title: 'Events',
