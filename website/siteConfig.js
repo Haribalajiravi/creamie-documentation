@@ -11,6 +11,16 @@ const users = [
   },
 ];
 
+const contributors = [
+  {
+    name: 'HBR',
+    link: 'https://twitter.com/haribalaji_o_0'
+  }, {
+    name: 'Ahilesh',
+    link: 'https://twitter.com/KumarAhilesh'
+  }
+];
+
 const siteConfig = {
   customDocsPath: path.basename(__dirname) + '/docs',
   title: 'Creamie',
@@ -36,6 +46,7 @@ const siteConfig = {
 
   // If you have users set above, you add it here:
   users,
+  contributors,
 
   /* path to images for header/footer */
   headerIcon: 'img/creamie.png',

@@ -64,7 +64,10 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href={docUrl('installation.html')}>Getting started</Button>
+            <Button href={docUrl('installation.html')}>Get started</Button>
+            <a href="https://www.buymeacoffee.com/7xcFqmn" target="_blank">
+              <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style={{ width: '162px !important', marginLeft: '10px', borderRadius: '3px' }} />
+            </a>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -149,6 +152,28 @@ class Index extends React.Component {
       </Block>
     );
 
+    const Constributors = () => {
+      if ((siteConfig.contributors || []).length === 0) {
+        return null;
+      }
+
+      const template = siteConfig.contributors.map(contributor => (
+        <li key={contributor.link}>
+          <a href={contributor.link}>{contributor.name}</a>
+        </li>
+      ))
+      return (
+        <div style={{ paddingTop: '80px', paddingBottom: '80px' }}>
+          <div style={{ padding: '0px 60px'}}>
+            <h1>Contributors</h1>
+            <ul>
+              {template}
+            </ul>
+          </div>
+        </div>
+      )
+    }
+
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -185,6 +210,7 @@ class Index extends React.Component {
           <Features />
           <Development />
           <Production />
+          <Constributors />
           {/* <Showcase /> */}
         </div>
       </div>
