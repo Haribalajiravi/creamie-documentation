@@ -11,18 +11,11 @@ sidebar_label: Install CLI
 
 Run the following command to install the CLI globally. If it isn't installed globally, you might not be able to use it through the terminal.
 
-If you're on Windows:
-
 ```sh
 npm install -g creamie-cli
 ```
-If you're on Linux or MacOS:
 
-```sh
-sudo npm install -g creamie-cli
-```
-
-If you use the command without `sudo` in Linux or MacOS, you might face these errors:
+In Linux or MacOS, you might face these errors:
 
 ```sh
 npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules
@@ -39,3 +32,4 @@ npm ERR!   syscall: 'access',
 npm ERR!   path: '/usr/local/lib/node_modules'
 npm ERR! }
 ```
+Try this [link](https://gist.github.com/isaacs/579814) to install [nodejs](https://nodejs.org/en/) in proper way.
