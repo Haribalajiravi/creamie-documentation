@@ -25,7 +25,7 @@ const siteConfig = {
   customDocsPath: path.basename(__dirname) + '/docs',
   title: 'Creamie',
   tagline: 'A Front-end framework',
-  url: 'https://creamie.now.sh',
+  url: 'https://creamie.io',
   baseUrl: '/',
 
   // Used for publishing and more
@@ -96,7 +96,7 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  twitterImage: 'img/creamie.png',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.

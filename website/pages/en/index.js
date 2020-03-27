@@ -15,6 +15,10 @@ const GridBlock = CompLibrary.GridBlock;
 
 class HomeSplash extends React.Component {
   render() {
+    // let yankVerification = window.document.createElement('meta');
+    // yankVerification.setAttribute('name', 'yandex-verification');
+    // yankVerification.setAttribute('content', '38f3542598fc418d');
+    // window.document.head.appendChild(yankVerification);
     const { siteConfig, language = '' } = this.props;
     const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
@@ -205,6 +209,7 @@ class Index extends React.Component {
 
     return (
       <div className="overpass">
+       <meta name="yandex-verification" content="38f3542598fc418d" />
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="main-container">
           <Features />
