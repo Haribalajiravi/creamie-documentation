@@ -55,6 +55,10 @@
     }
 }
 
+.nav-site .nav-site-internal {
+    font-size: 13pt !important;
+}
+
 .container .wrapper .imageAlignSide p {
     text-align: justify;
 }
