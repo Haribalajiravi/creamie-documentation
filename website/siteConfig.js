@@ -88,6 +88,7 @@ const siteConfig = {
     theme: 'dark',
   },
 
+  gaTrackingId: 'UA-162464001-2',
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
 

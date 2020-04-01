@@ -176,11 +176,11 @@ class Index extends React.Component {
 
     const WhyCreamie = () => {
       return (
-        <div style={{ paddingTop: '1px', paddingBottom: '30px', backgroundColor: '#a25f0c', color: '#ffffff', fontSize: '15pt' }}>
+        <div style={{ paddingTop: '1px', paddingBottom: '30px', backgroundColor: '#a25f0c', color: '#ffffff', fontSize: '13pt' }}>
           <div style={{ padding: '0px 60px'}}>
             <h1>Why Creamie?</h1>
             <p>
-              Creamie is entirely based on pure javascript methodology, scalable in nature and very transparent javascript workflows.
+              Creamie is entirely based on pure javascript methodology. It's scalable in nature and have very transparent javascript workflows.
               There is no abstraction in workflows so that you can reinvent custom workflow on top of this framework. 
               Since, the whole framework core built under web components. 
               All the features were wrapped under <b><i>Creamie</i></b> class which extends web component strategies.
