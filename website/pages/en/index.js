@@ -164,7 +164,7 @@ class Index extends React.Component {
       ))
       return (
         <div style={{ paddingTop: '80px', paddingBottom: '80px', backgroundColor: '#ffffff' }}>
-          <div style={{ padding: '0px 60px'}}>
+          <div style={{ padding: '0px 60px' }}>
             <h1>Contributors</h1>
             <ul>
               {template}
@@ -177,18 +177,33 @@ class Index extends React.Component {
     const WhyCreamie = () => {
       return (
         <div style={{ paddingTop: '1px', paddingBottom: '30px', backgroundColor: '#a25f0c', color: '#ffffff', fontSize: '13pt' }}>
-          <div style={{ padding: '0px 60px'}}>
+          <div style={{ padding: '0px 60px' }}>
             <h1>Why Creamie?</h1>
             <p>
               Creamie is entirely based on pure javascript methodology. It's scalable in nature and have very transparent javascript workflows.
-              There is no abstraction in workflows so that you can reinvent custom workflow on top of this framework. 
-              Since, the whole framework core built under web components. 
+              There is no abstraction in workflows so that you can reinvent custom workflow on top of this framework.
+              Since, the whole framework core built under web components.
               All the features were wrapped under <b><i>Creamie</i></b> class which extends web component strategies.
             </p>
             <p>
-            Creamie increases your development's reusability, testability and reliability. 
-              Since it's based on web components, we can make use of shadow DOM where event bubbling triggers only under components, write individual style for components and don't need to worry about naming conflicts in DOM.
+              Creamie increases your development's reusability, testability and reliability.
+                Since it's based on web components, we can make use of shadow DOM where event bubbling triggers only under components, write individual style for components and don't need to worry about naming conflicts in DOM.
             </p>
+          </div>
+        </div>
+      )
+    }
+
+    const Patreon = () => {
+      return (
+        <div style={{ paddingTop: '1px', paddingBottom: '30px', backgroundColor: '#cccccc', color: '#555555', fontSize: '13pt' }}>
+          <div style={{ padding: '0px 60px', textAlign: 'center' }}>
+            <h1>Like it? take a second to support me on Patreon!</h1>
+            <div>
+              <a href="https://www.patreon.com/haribalajiravi" target="_blank">
+                <img src="https://img.shields.io/badge/%20-Become%20a%20patreon%3F-%23555555?logo=patreon&style=for-the-badge" />
+              </a>
+            </div>
           </div>
         </div>
       )
@@ -227,11 +242,12 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="main-container">
-          <WhyCreamie/>
+          <WhyCreamie />
           <Features />
           <Development />
           <Production />
           <Constributors />
+          <Patreon />
           {/* <Showcase /> */}
         </div>
       </div>
