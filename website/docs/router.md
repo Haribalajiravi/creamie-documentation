@@ -11,9 +11,9 @@ Example:
 app-component.js:
 
 ```javascript
-import Creamie from 'creamie';
-import  AppConfig  from  './app-config.js';
-import Router from 'creamie/router.js';
+import Creamie from '@creamie/core';
+import AppConfig from './app-config.js';
+import Router from '@creamie/core/router.js';
 import Home from './home.js';
 import Tab from './tab.js';
 

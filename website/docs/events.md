@@ -13,7 +13,7 @@ Example:
 app-component.js:
 
 ```javascript
-import Creamie from 'creamie';
+import Creamie from '@creamie/core';
 import  AppConfig  from  './app-config.js';
 
 class App extends Creamie {

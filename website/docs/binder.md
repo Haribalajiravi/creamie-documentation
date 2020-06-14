@@ -21,7 +21,7 @@ Enter the following code in `app-component.html`:
 Now enter this in `app-component.js`:
 
 ```javascript
-import Creamie from 'creamie';
+import Creamie from '@creamie/core';
 import  AppConfig  from  './appConfig.js';
 
 class App extends Creamie {
@@ -58,7 +58,7 @@ Binder have basically getter and setter method.
 
 ### How to write custom binder plugins?
 
-You can write getter and setter methods in '<component>-config.js'.
+You can write getter and setter methods in '< component >-config.js'.
 
 Getter and Setter example:
 
@@ -180,8 +180,8 @@ It is possible exclude default plugins and write your own.
 Import default plugins and add it in 'excludePlugins' array.
 
 ```javascript
-import TextField from 'creamie/plugins/textfield';
-import Select from 'creamie/plugins/select';
+import TextField from '@creamie/core/plugins/textfield';
+import Select from '@creamie/core/plugins/select';
 
 export default {
     excludePlugins: [

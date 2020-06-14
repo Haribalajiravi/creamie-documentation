@@ -12,7 +12,7 @@ sidebar_label: Install CLI
 Run the following command to install the CLI globally. If it isn't installed globally, you might not be able to use it through the terminal.
 
 ```sh
-npm install -g creamie-cli
+npm install -g @creamie/cli
 ```
 
 In Linux or MacOS, you might face these errors:

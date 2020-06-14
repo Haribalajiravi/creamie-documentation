@@ -28,7 +28,7 @@ This plugin is applicable for below Elements as default.
 Above example reference can be used as below :
 
 ```javascript
-import Creamie from 'creamie';
+import Creamie from '@creamie/core';
 import AppConfig from './app-config';
 
 export default class App extends Creamie {
@@ -79,7 +79,7 @@ This plugin is applicable for below Elements as default.
 Above example reference can be used as below :
 
 ```javascript
-import Creamie from 'creamie';
+import Creamie from '@creamie/core';
 import AppConfig from './app-config';
 
 export default class App extends Creamie {

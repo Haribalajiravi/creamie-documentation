@@ -53,7 +53,7 @@ export default {
 <COMPONENT_NAME>-component.js:
 
 ```javascript
-import Creamie from 'creamie';
+import Creamie from '@creamie/core';
 import AppConfig from './<COMPONENT_NAME>-config';
 
 export default class App extends Creamie {
