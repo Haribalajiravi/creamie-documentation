@@ -5,7 +5,7 @@ sidebar_label: Install CLI
 ---
 
 ## Prerequisite
-- [Node.js](https://nodejs.org/en/)
+- Install [Node.js](https://nodejs.org/en/)
 
 ## Install Creamie's Command Line Interface (CLI)
 
