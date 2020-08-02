@@ -1,6 +1,6 @@
 {
   "docs": {
     "Getting started": ["installation", "projectgeneration", "component", "projectdeployment"],
-    "Current features": ["webcomponents", "binder", "defaultplugins", "router", "events"]
+    "Current features": ["webcomponents", "binder", "directives", "defaultplugins", "router", "events"]
   }
 }

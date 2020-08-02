@@ -28,6 +28,12 @@ const siteConfig = {
   url: 'https://creamie.io',
   baseUrl: '/',
 
+  // algolia: {
+  //   apiKey: '11429b9d4c748d28daec18c827eb920a',
+  //   indexName: 'creamie',
+  //   algoliaOptions: {} // Optional, if provided by Algolia
+  // },
+
   // Used for publishing and more
   projectName: 'creamie-documentation',
   organizationName: 'haribalajiravi',
